@@ -7,19 +7,11 @@ public class Metier
 		this.val = 0;
 	}
 
-	public void augmenter(char[] tabCara, int lig, int col,char dir)
+	public void augmenter()
 	{
-		char temp;
-		temp = tabCara[lig][col]
-		if(dir == 'D')
-		{
-			
-		}
-		else
-		{
-			
-		}
-		
+		this.val++;
+
+		if ( this.val == 11 ) this.val = -10;
 	}
 
 	public void diminuer()
